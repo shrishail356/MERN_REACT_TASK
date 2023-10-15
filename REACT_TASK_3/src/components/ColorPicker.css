@@ -1,0 +1,61 @@
+/* ColorPicker.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.container {
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: #f0f0f0; /* Constant background color for the box */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease; /* Add animation to the box background color */
+  }
+  
+  .color-picker {
+    display: inline-block;
+  }
+  
+  .color-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add animation to the button */
+  }
+  
+  .color-button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+    transform: scale(1.05); /* Add scaling effect on hover */
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .color-item {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add other styles and animations as needed */
+  
